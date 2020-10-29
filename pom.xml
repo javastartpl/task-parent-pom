@@ -6,7 +6,7 @@
 
     <groupId>pl.javastart</groupId>
     <artifactId>task-parent</artifactId>
-    <version>LATEST</version>
+    <version>1.0.0</version>
 
     <properties>
         <maven.compiler.source>13</maven.compiler.source>
@@ -54,5 +54,13 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/javastartpl/task-parent</url>
+        </repository>
+    </distributionManagement>
 
 </project>
