@@ -17,6 +17,9 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 13
+        server-id: repsy
+        server-username: MAVEN_USERNAME
+        server-password: MAVEN_PASSWORD
 
     - name: Build with Maven
       run: mvn -B package --file pom.xml
