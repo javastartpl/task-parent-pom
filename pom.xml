@@ -58,9 +58,9 @@
 
     <distributionManagement>
         <repository>
-            <id>github</id>
-            <name>GitHub OWNER Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/javastartpl/task-parent-pom</url>
+            <id>repsy</id>
+            <name>My Private Maven Repositoty on Repsy</name>
+            <url>https://repo.repsy.io/mvn/javastartpl/default</url>
         </repository>
     </distributionManagement>
 
