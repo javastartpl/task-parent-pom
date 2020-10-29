@@ -7,6 +7,7 @@
     <groupId>pl.javastart</groupId>
     <artifactId>task-parent</artifactId>
     <version>1.0.0</version>
+    <packaging>pom</packaging>
 
     <properties>
         <maven.compiler.source>13</maven.compiler.source>
