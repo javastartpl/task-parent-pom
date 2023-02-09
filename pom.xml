@@ -6,13 +6,14 @@
 
     <groupId>pl.javastart</groupId>
     <artifactId>task-parent</artifactId>
-    <version>1.17.0</version>
+    <version>1.17.1</version>
     <packaging>pom</packaging>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <version.junit>5.8.2</version.junit>
+        <version.mockito>4.8.1</version.mockito>
     </properties>
 
     <dependencies>
@@ -47,9 +48,17 @@
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
-            <version>4.3.1</version>
+            <version>${version.mockito}</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-junit-jupiter</artifactId>
+            <version>${version.mockito}</version>
+            <scope>test</scope>
+        </dependency>
+
 
     </dependencies>
 
